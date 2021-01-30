@@ -34,4 +34,3 @@ test:
     - npm run lint
     - npm run markdownlint
     - npm test
-
