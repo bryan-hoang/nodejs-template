@@ -1,16 +1,16 @@
-const typeCheckCommand = () => 'npm run type-check';
+const typeCheckCommand = () => 'npm run type-check --if-present';
 const eslintCommand = 'npm run lint -- --fix';
 const prettierCommand = 'npm run format -- --write';
 const markdownlintCommand = 'npm run markdownlint -- --fix';
 
-const typescriptFiles = '*.@(ts|tsx)';
-const eslintFiles = '*.@(ts|tsx|js)';
-const markdownFiles = '*.@(md)';
-const prettierableFiles = '*.@(md|json|svg|yaml|yml)';
+const micromatchFileExtension = (...fileExtensions) =>
+  `*.(${fileExtensions.join('|')})`;
 
 module.exports = {
-  [typescriptFiles]: [typeCheckCommand],
-  [eslintFiles]: [eslintCommand],
-  [markdownFiles]: [markdownlintCommand],
-  [prettierableFiles]: [prettierCommand],
+  [micromatchFileExtension('ts', 'tsx')]: [typeCheckCommand],
+  [micromatchFileExtension('ts', 'tsx', 'js')]: [eslintCommand],
+  [micromatchFileExtension('md')]: [markdownlintCommand],
+  [micromatchFileExtension('md', 'json', 'svg', 'yaml', 'yml')]: [
+    prettierCommand,
+  ],
 };
