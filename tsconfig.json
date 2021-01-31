@@ -2,6 +2,6 @@
   "compilerOptions": {
     "outDir": "lib"
   },
-  "extends": "@tsconfig/recommended/tsconfig.json",
+  "extends": "@tsconfig/node14/tsconfig.json",
   "include": ["src"]
 }
