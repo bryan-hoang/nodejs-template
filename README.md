@@ -6,19 +6,21 @@
 
 A brief description of your project, what it is used for.
 
-- [Installing / Getting started](#installing--getting-started)
+- [Installing / Getting started](#installing-getting-started)
 - [Developing](#developing)
   - [Built With](#built-with)
   - [Prerequisites](#prerequisites)
   - [Setting up Dev](#setting-up-dev)
   - [Building](#building)
-  - [Deploying / Publishing](#deploying--publishing)
+  - [Deploying / Publishing](#deploying-publishing)
 - [Versioning](#versioning)
 - [Configuration](#configuration)
 - [Tests](#tests)
 - [Style guide](#style-guide)
 - [Api Reference](#api-reference)
 - [Database](#database)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
 - [Licensing](#licensing)
 
 ## Installing / Getting started
@@ -104,7 +106,9 @@ Give an example
 
 ## Style guide
 
-Explain your code style and show how to check it.
+This project generally follows the
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-).
+To check it, run `npm run lint`.
 
 ## Api Reference
 
@@ -117,6 +121,23 @@ their required parameters.
 Explaining what database (and version) has been used. Provide download links.
 Documents your database design and schemas, relations etc...
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Code of Conduct
+
+This project's Code of Conduct (see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)) is
+adapted from the [Contributor Covenant][homepage], version 1.4, available at
+<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
+
+[homepage]: https://www.contributor-covenant.org
+
+For answers to common questions about this code of conduct, see
+<https://www.contributor-covenant.org/faq>
+
 ## Licensing
 
-State what the license is and how to find the text version of the license.
+MIT License: Copyright (c) 2021 Bryan Hoang
+
+See [LICENSE](LICENSE).
