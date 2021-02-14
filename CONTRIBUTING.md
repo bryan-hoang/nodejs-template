@@ -12,7 +12,12 @@ your changes!
 As mentioned in the project's [README.md](README.md), this project generally
 follows the
 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-).
-To check it, run `npm run lint`.
+
+To check it, run
+
+```shell
+npm run lint
+```
 
 ## Code of Conduct
 

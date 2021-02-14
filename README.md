@@ -1,4 +1,4 @@
-<img src="./img/logo.sample.png" alt="Logo of the project" align="right">
+<img src="./img/logo.sample.png" height=120 alt="Logo of the project" align="right">
 
 # Name of the project &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -108,7 +108,12 @@ Give an example
 
 This project generally follows the
 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-).
-To check it, run `npm run lint`.
+
+To check it, run
+
+```shell
+npm run lint
+```
 
 ## Api Reference
 
@@ -128,16 +133,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Code of Conduct
 
 This project's Code of Conduct (see [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)) is
-adapted from the [Contributor Covenant][homepage], version 1.4, available at
-<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
-
-[homepage]: https://www.contributor-covenant.org
+adapted from the [Contributor Covenant][https://www.contributor-covenant.org],
+version 1.4, available at
+<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>.
 
 For answers to common questions about this code of conduct, see
-<https://www.contributor-covenant.org/faq>
+<https://www.contributor-covenant.org/faq>.
 
 ## Licensing
 
-MIT License: Copyright (c) 2021 Bryan Hoang
+MIT License
+
+Copyright (c) 2021 Bryan Hoang
 
 See [LICENSE](LICENSE).
